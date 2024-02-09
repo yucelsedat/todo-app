@@ -31,7 +31,7 @@ function App() {
       >
         Paylaş
       </button>
-      <PostList values={texts} setTexts={setTexts}/>
+      <PostList texts={texts} setTexts={setTexts}/>
     </div> 
   );
 }
